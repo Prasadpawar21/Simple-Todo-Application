@@ -1,16 +1,15 @@
-# React + Vite
+Description : Build a Simple Todos app by applying the concepts by applying the concepts of react js such as "functional" and "class" Componets , react states (controlled and uncontrolled) ,basics of javascript , HTML/CSS , etc .
+<img width="1905" height="873" alt="image" src="https://github.com/user-attachments/assets/8df06e08-7b24-4a95-aabe-36661f15420f" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Functionality : 
+The app has the following functionalities - 
 
-Currently, two official plugins are available:
+1. Initially, the list of given todos are displayed with a delete button for each todo
+2. When Delete button of a todo is clicked, then the respective todo is deleted
+3. The SimpleTodos will consist of the initialTodosList. It consists of a list of todo objects with the following properties in each todo object
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key	    Data Type
+id	    Number
+title	  String
 
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployement : https://prasad507.ccbp.tech/
