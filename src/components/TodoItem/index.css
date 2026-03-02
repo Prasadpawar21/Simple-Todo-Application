@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.todo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  /* flex-grow: 2; */
+  width: 80%;
+}
+
+.delete-button {
+  /* flex-grow: 1; */
+  width: 20%;
+  padding: 8px;
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  border-radius: 5px;
+  cursor: pointer;
+}

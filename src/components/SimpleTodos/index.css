@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.main-contianer {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  padding: 20px;
+}
+
+.bg-contianer {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ff8542;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.todo-list {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
