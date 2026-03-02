@@ -8,8 +8,5 @@ The app has the following functionalities -
 2. When Delete button of a todo is clicked, then the respective todo is deleted
 3. The SimpleTodos will consist of the initialTodosList. It consists of a list of todo objects with the following properties in each todo object
 
-Key	    Data Type
-id	    Number
-title	  String
-
+Key:Datatype	: {id : Number , title : String} 
 Deployement : https://prasad507.ccbp.tech/
